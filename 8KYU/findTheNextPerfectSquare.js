@@ -12,7 +12,7 @@ Examples:(Input --> Output)
 
 
 function findNextSquare(sq) {
-  var number = Math.sqrt(sq);
+  let number = Math.sqrt(sq);
   if(Math.round(number) === number) {
     return Math.pow(++number, 2)
   }
