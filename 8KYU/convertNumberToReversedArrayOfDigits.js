@@ -12,10 +12,10 @@ function digitize(n) {
   //   newN.map(num => Number)
     
     
-    let stringN = String(n)
-    let stringArray = stringN.split('')
-    let reverseArray = stringArray.reverse()
-    let newArray = reverseArray.map(item => (Number(item)))
+    let stringN = String(n)//turn number into string
+    let stringArray = stringN.split('') //turn string into array
+    let reverseArray = stringArray.reverse() //reversed array
+    let newArray = reverseArray.map(item => (Number(item)))  // for each item in the reverseArray map through and apply the NUMBER method 
           return newArray                        
   console.log(newArray);
   }
